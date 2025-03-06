@@ -1,0 +1,9 @@
+[programs.localnet]
+simple_counter = "<PROGRAM_ID>"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "tests/simple_counter.js"

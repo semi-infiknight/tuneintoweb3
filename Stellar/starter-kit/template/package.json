@@ -1,0 +1,13 @@
+{
+  "name": "stellar-starter-template",
+  "version": "1.0.0",
+  "description": "A minimal starter template for Stellar dApp development using the JavaScript SDK.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/issueAsset.js"
+  },
+  "dependencies": {
+    "stellar-sdk": "^10.5.0",
+    "dotenv": "^16.0.3"
+  }
+}
